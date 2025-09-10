@@ -13,3 +13,10 @@
 "scripts": {
   "start": "node server.js"
 }
+"dependencies": {
+  "puppeteer": "^21.3.8"
+},
+"puppeteer": {
+  "args": ["--no-sandbox", "--disable-setuid-sandbox"]
+}
+
